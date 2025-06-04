@@ -28,7 +28,7 @@ def search():
     if not prompt:
         return jsonify({'error': 'Nenhum prompt fornecido'}), 400
 
-    context = 'Responda como se fosse uma inteligência artificial chamada Pedro'
+    context = 'Responda como se fosse uma inteligência artificial chamada Pepe'
     input_ia = f'{context}: {prompt}'
     try:
         print(f"Enviando prompt para a API: {input_ia}")
